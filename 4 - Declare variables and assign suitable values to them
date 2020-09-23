@@ -20,7 +20,7 @@ class DataTypes
 		char var4 = 'G';		// character
 		bool var5 = true;		// boolean
 		ulong var6 = 25ul;		// ulong
-		decimal var7 = 7.55m;   // decimal
+		decimal var7 = 7.55m;   	// decimal
 
 		Console.WriteLine("Var1 is of type " + var1.GetType());
 		Console.WriteLine("Var2 is of type " + var2.GetType());
