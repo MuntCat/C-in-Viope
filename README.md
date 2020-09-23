@@ -1,2 +1,1 @@
-# C-in-Viope
-Solve exercises from Viope online course
+Introduction to C# Programming
