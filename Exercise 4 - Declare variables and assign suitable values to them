@@ -1,0 +1,33 @@
+using System;
+
+/* Your task is to declare variables and assign suitable values to them according to the list below:
+
+var1 of type short
+var2 of type byte
+var3 of type float
+var4 of type char
+var5 of type boolean
+var6 of type ulong
+var7 of type decimal. */
+
+class DataTypes
+{
+    static void Main()
+    {
+		short var1 = 16;		// integer(whole number)
+		byte var2 = 22;			// byte
+		float var3 = 2.58f;		// floating point number
+		char var4 = 'G';		// character
+		bool var5 = true;		// boolean
+		ulong var6 = 25ul;		// ulong
+		decimal var7 = 7.55m;   // decimal
+
+		Console.WriteLine("Var1 is of type " + var1.GetType());
+		Console.WriteLine("Var2 is of type " + var2.GetType());
+		Console.WriteLine("Var3 is of type " + var3.GetType());
+		Console.WriteLine("Var4 is of type " + var4.GetType());
+		Console.WriteLine("Var5 is of type " + var5.GetType());
+		Console.WriteLine("Var6 is of type " + var6.GetType());
+		Console.WriteLine("Var7 is of type " + var7.GetType());
+	}
+}
