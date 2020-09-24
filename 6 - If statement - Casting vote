@@ -1,0 +1,19 @@
+using System;
+
+/*a C# program that asks the user’s age and then prints out if the user is eligible to cast its own vote. 
+The age limit for casting a vote is 18.
+class Age */
+{
+    static void Main(string[] args)
+    {
+        int age;
+        Console.WriteLine("Please input your age: ");
+        age = Convert.ToInt32(Console.ReadLine());
+
+        if (age >= 18)
+        {
+            Console.WriteLine("You can cast your vote!");
+        }
+       
+        }
+    }
