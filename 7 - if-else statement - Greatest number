@@ -1,0 +1,31 @@
+using System;
+
+/* Write a program which asks the user to input two integers
+and then tells which of the numbers is greater or if they are equal. */
+
+class Numbers
+{
+    static void Main(string[] args)
+    {
+        int number1, number2;
+
+        Console.WriteLine("Please input the first number: ");
+        number1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Please input the second number: ");
+        number2 = Convert.ToInt32(Console.ReadLine());
+
+        if (number1 > number2)
+        {
+            Console.WriteLine("Number 1 is greater than number 2.");
+        }
+        else if (number1 < number2)
+        {
+            Console.WriteLine("Number 2 is greater than number 1.");
+        }
+        else
+        {
+            Console.WriteLine("Numbers are equal.");
+        }
+    }
+}
