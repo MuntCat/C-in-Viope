@@ -1,7 +1,4 @@
 using System;
-
-// Write a C# program which prints a menu and asks the user for input.
-
 class SwitchMenu
 {
     static void Main()
