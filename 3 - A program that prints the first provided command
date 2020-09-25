@@ -14,3 +14,4 @@ class CommandLineArgument
 		Console.WriteLine(args[0]);
 	}
 }
+
