@@ -1,7 +1,4 @@
 using System;
-
-//Write a program which prompts the user to provide the name of a fruit and then prints “Your favourite fruit is” name of the fruit
-
 class Banana
 {
 	static void Main()
