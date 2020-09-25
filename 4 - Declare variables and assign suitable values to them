@@ -1,7 +1,4 @@
 using System;
-
-/* Your task is to declare variables and assign suitable values to them according to the list below:
-
 var1 of type short
 var2 of type byte
 var3 of type float
