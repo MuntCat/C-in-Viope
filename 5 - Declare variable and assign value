@@ -1,7 +1,4 @@
 using System;
-
-/* Your task is to declare the variables listed below and assign any acceptable values to them.
-
 var1 = 8-bit signed integer
 var2 = 64-bit signed integer
 var3 = 16-bit unsigned integer
